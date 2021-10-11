@@ -1,4 +1,12 @@
 #include <stdio.h>
+int SumaDatos(int a, int b)
+{
+	int resultado;
+	resultado = a + b;
+
+
+return resultado;
+}
 
 int main()
 {
@@ -18,7 +26,7 @@ int main()
 	scanf_s("%i", & numero2);
 
 	//Operacion
-	Resultado = numero1 + numero2;
+	Resultado = SumaDatos(numero1, numero2);
 	printf("El resultado de la suma de ambos datos es: %i",Resultado);
 	printf("\n=============================\n");
 }
